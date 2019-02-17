@@ -1,5 +1,5 @@
 # AppointmentSystem
-A little bit appointment system in .NetCore 
+A little bit doctor-patient appointment system in .NetCore 
 
 Everything is ready to start. 
 You just need to edit appsettings.json and RUN.

@@ -1,7 +1,7 @@
 # AppointmentSystem
 A little bit appointment system in .NetCore 
 
-# Everything is ready to start. 
+Everything is ready to start. 
 You just need to edit appsettings.json and RUN.
 
 Seed Data fill in the database when you run the project. 

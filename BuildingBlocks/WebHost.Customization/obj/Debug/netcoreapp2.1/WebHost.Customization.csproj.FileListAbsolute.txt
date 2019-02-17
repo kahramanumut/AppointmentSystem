@@ -1,0 +1,11 @@
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.deps.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.pdb
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.csprojAssemblyReference.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.csproj.CoreCompileInputs.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.AssemblyInfoInputs.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.AssemblyInfo.cs
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\obj\Debug\netcoreapp2.1\WebHost.Customization.pdb
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.runtimeconfig.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\BuildingBlocks\WebHost.Customization\bin\Debug\netcoreapp2.1\WebHost.Customization.runtimeconfig.dev.json

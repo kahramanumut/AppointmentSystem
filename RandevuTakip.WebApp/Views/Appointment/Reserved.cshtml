@@ -1,0 +1,68 @@
+﻿@model List<Appointment>
+
+        <div class="row">
+            <div class="listed">
+                @foreach (var item in Model)
+                {
+                  <div class="row">
+                    <div class="col-lg-12">
+                        <div class="item-meeting">
+                            <div class="avatar-doctor">
+                                <div class="avatar-image">
+                                    @*<img src="img/doctor-pic.jpg" alt="doctor">*@
+                                    <h4>
+                                        <i class="fa fa-user-md" aria-hidden="true"></i>
+                                        <a title="See Profile">@item.Doctor.Name @item.Doctor.Surname</a>
+                                    </h4>
+                                    
+                                </div>
+                            </div>
+                            <div class="data-meeting">
+                                <ul class="list-unstyled info-meet">
+                                    <li><p>Poliklinik: <span>@item.Doctor.Department.DepartmentName</span></p></li>
+                                    <li><p>Tarih: <span>@item.Timestamp.ToShortDateString()</span></p></li>
+                                    <li><p class="time">Saat: <span>@item.Timestamp.ToShortTimeString()</span></p></li>
+                                    @*<li><p>type of appointment: <span>Specialist</span></p></li>
+                                    <li><p>total: <span class="price">15.00</span></p></li>
+                                    <li><p>doctor's office: <span>202</span></p></li>*@
+                                    <li><div class="alert alert-info" role="alert">Lütfen belirtilen saatten 15 dakika önce poliklinik önünde olunuz</div></li>
+                                </ul>
+                                <ul class="list-unstyled btns">
+                                    <li><button class="btn btn-red btn-xsmall confirm"><i class="fa fa-times" aria-hidden="true"></i> İptal</button></li>
+                                    <li><a class="btn btn-xsmall" href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i> Yazdır</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+            </div>
+
+            <aside>
+                <div class="elements-aside gray-color">
+                    <ul>
+                        <li class="color-1">
+                            <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                            <h4>Emergency Case</h4>
+                            <p>If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</p>
+                        </li>
+                        <li class="color-2">
+                            <i class="fa fa-hourglass-half" aria-hidden="true"></i>
+                            <h4>Working Time</h4>
+                            <p>Monday to Friday <span> 05:00am to 10:00pm</span></p>
+                            <p>Weekends <span> 09:00am to 12:00pm</span></p>
+                        </li>
+                        <li class="color-1">
+                            <i class="fa fa-id-badge" aria-hidden="true"></i>
+                            <h4>Medical Services</h4>
+                            <p>If you need a doctor urgently outside of medicenter opening hours, call emergency appointment number for emergency service.</p>
+                        </li>
+                        <li class="color-3">
+                            <i class="fa fa-info" aria-hidden="true"></i>
+                            <h4>Doubts?</h4>
+                            <p>Office Av. 100 #0987-988, <span>Central Park</span></p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            </div>

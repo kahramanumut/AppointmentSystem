@@ -1,0 +1,11 @@
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\obj\Debug\netcoreapp2.1\RandevuTakip.Entities.csprojAssemblyReference.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\obj\Debug\netcoreapp2.1\RandevuTakip.Entities.csproj.CoreCompileInputs.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\obj\Debug\netcoreapp2.1\RandevuTakip.Entities.AssemblyInfoInputs.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\obj\Debug\netcoreapp2.1\RandevuTakip.Entities.AssemblyInfo.cs
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.deps.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.pdb
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\obj\Debug\netcoreapp2.1\RandevuTakip.Entities.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\obj\Debug\netcoreapp2.1\RandevuTakip.Entities.pdb
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.runtimeconfig.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.Entities\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.runtimeconfig.dev.json

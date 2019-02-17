@@ -1,0 +1,28 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using RandevuTakip.Entities.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<nav>
+    <div class="container">
+        <h4 class="navbar-brand">menu</h4>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"> <i class="fa fa-list-alt"></i> <a asp-controller="Appointment" asp-action="Reserved"> Rezervasyonlarım</a> </li>
+                @{
+                    var user = await UserManager.GetUserAsync(User);
+                    var role = await UserManager.GetRolesAsync(user);
+                }
+               @if (role[0].ToString().Equals("Patient"))
+               {
+               <li> <i class="fa fa-address-book-o"></i> <a asp-controller="Appointment" asp-action="New"> Yeni rezervasyon</a> </li>
+               }
+            </ul>
+        </div>
+    </div>
+</nav>

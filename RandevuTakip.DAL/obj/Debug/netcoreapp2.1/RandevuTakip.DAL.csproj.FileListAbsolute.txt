@@ -1,0 +1,14 @@
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.DAL.deps.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.DAL.runtimeconfig.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.DAL.runtimeconfig.dev.json
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.DAL.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.DAL.pdb
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\bin\Debug\netcoreapp2.1\RandevuTakip.Entities.pdb
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.csprojAssemblyReference.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.csproj.CoreCompileInputs.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.AssemblyInfoInputs.cache
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.AssemblyInfo.cs
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.csproj.CopyComplete
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.dll
+C:\MR\Çalışma\Büşra Durna\RandevuTakip\RandevuTakip.DAL\obj\Debug\netcoreapp2.1\RandevuTakip.DAL.pdb

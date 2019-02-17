@@ -1,0 +1,34 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="logo">
+                <a href="#"><img width="80px;" src="~/img/logo2.png" alt="logo"></a>
+            </div>
+
+            <div class="tools-top">
+                <div class="avatar-profile">
+                    <div class="user-edit">
+                        <h4>@UserManager.GetUserName(User),</h4>
+                        <a href="my-account.html">Profilim</a>
+                    </div>
+                    <div class="avatar-image">
+                        <img src="img/avatar-profile.jpg" alt="avatar profile" class="img-responsive">
+                    </div>
+                </div>
+                <ul class="tools-help">
+                    @*
+                        <li><a href="help.html" title="Help" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-question-circle"></i></a></li>*@
+                    <li>
+                        <form method="post" action="~/Identity/Account/Logout">
+                            <button type="submit" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-sign-out"></i>Çıkış</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

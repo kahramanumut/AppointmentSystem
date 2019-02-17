@@ -1,0 +1,80 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1,  maximum-scale=1">
+    <meta name="Description" content="" />
+    <meta name="author" content="" />
+    <title>Randevu Takip - Giriş</title>
+    <link href="/css/styles.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico" />
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-sprockets.js"></script>
+    <script src="/js/main.js"></script>
+</head>
+<body class="panel-access">
+    <div id="layout">
+
+        <div class="login">
+            <div class="container">
+                <div class="login-form">
+                    <div class="data-form">
+
+                        <a asp-page="./Login" class="logo"><img width="110 px;" src="~/img/Eru.jpg" alt="logo" class="img-responsive"></a>
+
+
+                        <form method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <div class="icon-data">
+                                <i class="fa fa-user-circle"></i>
+                            </div>
+                            <input asp-for="Input.Email" placeholder="Kullanıcı adınız.." />
+                            <div class="icon-data">
+                                <i class="fa fa-key"></i>
+                            </div>
+                            <input asp-for="Input.Password" placeholder="Şifreniz.." />
+
+
+                            <label class="text-danger">Doktor:</label> busra@busra.com <label class="text-danger">Şifre: </label> 1234 <br />
+                            <label class="text-danger">Hasta:</label> federer@federer.com <label class="text-danger">Şifre: </label> 1234 <br />
+
+                            @*<div class="form-group">
+            <div class="checkbox">
+                <label asp-for="Input.RememberMe">
+                    <input asp-for="Input.RememberMe" />
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                </label>
+            </div>
+        </div>*@
+                            <button type="submit" class="btn btn-default">Giriş</button>
+
+                        </form>
+
+                        <a asp-page="./Register" class="btn btn-red register" asp-route-returnUrl="@Model.ReturnUrl">Kayıt ol</a>
+                        <span class="help">
+                            <a asp-page="./ForgotPassword">Şifremi Unuttum ?</a>
+                            @*<a href="help.html" class="help-link">¿Help?</a>*@
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </body>
+
+</html>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
